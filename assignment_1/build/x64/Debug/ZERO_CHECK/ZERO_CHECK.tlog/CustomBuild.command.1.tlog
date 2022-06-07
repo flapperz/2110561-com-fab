@@ -1,0 +1,10 @@
+^C:\USERS\FLAP9\MYDATA\WORKSPACES\COM-FAB\ASSIGNMENT_1\BUILD\CMAKEFILES\EFD2E3F07BAEB290A31F02388BD3242B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/flap9/MyData/Workspaces/com-fab/assignment_1 -BC:/Users/flap9/MyData/Workspaces/com-fab/assignment_1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/flap9/MyData/Workspaces/com-fab/assignment_1/build/voxelizer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

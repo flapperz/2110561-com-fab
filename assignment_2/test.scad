@@ -1,0 +1,5 @@
+difference()
+{
+    ploygon(5);
+}
+    

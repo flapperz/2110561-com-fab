@@ -1,0 +1,14 @@
+{
+    "parameterSets": {
+        "design default values": {
+            "base_h": "50",
+            "block_d": "100",
+            "city_h": "5",
+            "city_w": "5",
+            "input_seed": "144855",
+            "isRandomSeed": "false",
+            "isSeperate": "true"
+        }
+    },
+    "fileFormatVersion": "1"
+}
